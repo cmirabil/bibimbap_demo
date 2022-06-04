@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import {TextInput, Anchor,Grommet, Nav, Grid, Header, Button, DateInput, Box, Text} from 'grommet';
+
+import {Search} from 'grommet-icons'
+import FooterAPP from './FooterApp';
+
+import Main from './Main';
+import Header_APP from './Header_app';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ 
+    
+
+    <Grommet className="App">
+<div 
+style={{
+  backgroundColor: '#003049'}}
+>
+
+<Header_APP name='jaaleu' />   
+
+
+<Main />
+
+
+
+
+
+
+<FooterAPP />   
+</div>
+
+
+
+
+</Grommet>
   );
 }
 

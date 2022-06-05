@@ -5,7 +5,7 @@ import FooterAPP from './FooterApp';
 
 import Main from './Main';
 import Header_APP from './Header_app';
-
+import Autentication from './Autentication';
 
 
 function App() {
@@ -22,7 +22,7 @@ style={{
 <Header_APP name='jaaleu' />   
 
 
-<Main />
+<Autentication />
 
 
 

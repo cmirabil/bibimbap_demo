@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bibimbap-dev-163649-authRole",
+      "UnauthRoleArn": "arn:aws:iam::919466144393:role/amplify-bibimbap-dev-163649-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::919466144393:role/amplify-bibimbap-dev-163649-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-bibimbap-dev-163649-deployment",
+      "UnauthRoleName": "amplify-bibimbap-dev-163649-unauthRole",
+      "StackName": "amplify-bibimbap-dev-163649",
+      "StackId": "arn:aws:cloudformation:eu-west-1:919466144393:stack/amplify-bibimbap-dev-163649/c591c8e0-e413-11ec-af8a-0ae92573471d",
+      "AmplifyAppId": "d2vsieys72p7ur"
+    },
+    "categories": {
+      "auth": {
+        "bibimbap18513b92": {}
+      }
+    }
+  }
+}
